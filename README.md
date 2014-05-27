@@ -3,6 +3,26 @@ twinsdb
 
 NoSQL, specific bidirectional database
 
+What is twinsdb?
+================
+
+twinsdb look likes Key-Value Store, but is a bit different. This is a bidirectional database.
+
+Often, many key-value stores get Value from Key, but cannot get Key from Value.
+
+```
+A -> B
+B ?> A
+```
+
+It is not neccessary to distinguish between Key and Valuem and only key-pair, and bidirectionaly get.
+
+```
+A -> B
+B -> A
+```
+
+
 Draft
 =====
 
